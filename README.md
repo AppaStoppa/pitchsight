@@ -123,6 +123,20 @@ uvicorn app:app --host 0.0.0.0 --port 8000
 On Windows, put the key in a `.env` file (`ANTHROPIC_API_KEY=...`, already git-ignored) and start with
 `uvicorn app:app --port 8000 --env-file .env`.
 
+### Just want to explore the sample results? (lightweight, no GPU)
+
+The four library clips are already analysed, so you can open them with a small install (no PyTorch, no model downloads):
+
+```bash
+git clone https://github.com/AppaStoppa/pitchsight.git && cd pitchsight
+python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scriptsctivate
+pip install -r requirements-demo.txt
+python -m uvicorn app:app --port 8000
+# open http://localhost:8000/?game=volleyball-clip-1
+```
+
+Analysing a new clip needs the full `requirements.txt` above.
+
 Or with Docker: `docker build -t pitchsight . && docker run -p 8000:8000 -e ANTHROPIC_API_KEY=... pitchsight`
 
 ### Add games to the library (the "search a game" feature)

@@ -1,0 +1,9 @@
+# Lightweight install: enough to open and explore the pre-analysed clips in library/ (no GPU, no model downloads).
+# Analysing NEW clips needs the full requirements.txt (ultralytics, torch, ...).
+fastapi
+uvicorn[standard]
+python-multipart
+numpy
+opencv-python-headless
+scikit-learn
+scipy
