@@ -10,3 +10,5 @@ SUBMISSION_CHECKLIST.md
 *.pkl
 yolov8*.pt
 PitchSight-demo*.mp4
+devpost_images/
+START_PITCHSIGHT.bat
