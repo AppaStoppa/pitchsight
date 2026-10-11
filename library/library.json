@@ -1,0 +1,66 @@
+[
+  {
+    "id": "indoor-youth-match-drone-view",
+    "title": "Indoor youth match, drone view",
+    "sport": "soccer",
+    "tags": [
+      "soccer",
+      "drone",
+      "youth"
+    ],
+    "description": "A drone's-eye view of a youth match on an indoor pitch.",
+    "video": "/library/videos/indoor-youth-match-drone-view.mp4",
+    "thumb": "/library/videos/indoor-youth-match-drone-view.jpg",
+    "formations": {
+      "A": "2-1-2-4",
+      "B": "2-3-2-6"
+    },
+    "mode": "heuristic"
+  },
+  {
+    "id": "aerial-basketball-court",
+    "title": "Aerial basketball court",
+    "sport": "basketball",
+    "tags": [
+      "basketball",
+      "aerial",
+      "drone"
+    ],
+    "description": "",
+    "video": "/library/videos/aerial-basketball-court.mp4",
+    "thumb": "/library/videos/aerial-basketball-court.jpg",
+    "formations": {
+      "A": "2-3",
+      "B": "4-1"
+    },
+    "mode": "heuristic"
+  },
+  {
+    "id": "tennis-1-on-1-clip",
+    "title": "Tennis 1 on 1 clip",
+    "sport": "tennis",
+    "tags": [],
+    "description": "",
+    "video": "/library/videos/tennis-1-on-1-clip.mp4",
+    "thumb": "/library/videos/tennis-1-on-1-clip.jpg",
+    "formations": {
+      "A": "Singles",
+      "B": "Singles"
+    },
+    "mode": "heuristic"
+  },
+  {
+    "id": "volleyball-clip-1",
+    "title": "Volleyball clip 1",
+    "sport": "volleyball",
+    "tags": [],
+    "description": "",
+    "video": "/library/videos/volleyball-clip-1.mp4",
+    "thumb": "/library/videos/volleyball-clip-1.jpg",
+    "formations": {
+      "A": "1-5",
+      "B": "5-1"
+    },
+    "mode": "heuristic"
+  }
+]

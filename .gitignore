@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+uploads/
+cache/
+*.pt
+.env
+.venv/
+PitchSight-demo.mp4
+SUBMISSION_CHECKLIST.md
+*.pkl
+yolov8*.pt
