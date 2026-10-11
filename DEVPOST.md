@@ -87,4 +87,4 @@ eight sports. Direct links open a result immediately, for example `/?game=volley
 Repo README has run instructions.
 
 ## Links
-Demo: [url]  ·  Repo (PUBLIC): [url]  ·  Video (PUBLIC, 2-3 min): [url]
+Demo: run instructions in the README (no hosted site; no login or credentials needed)  ·  Repo (PUBLIC): https://github.com/AppaStoppa/pitchsight  ·  Video (PUBLIC, 2-3 min): [paste YouTube link]

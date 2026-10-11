@@ -113,6 +113,7 @@ clip ──► sport detection (CLIP) ──► YOLOv8 + ByteTrack / motion trac
 ## Run it
 
 ```bash
+git clone https://github.com/AppaStoppa/pitchsight.git && cd pitchsight
 pip install -r requirements.txt
 export ANTHROPIC_API_KEY=sk-ant-...      # optional, enables the written AI report
 uvicorn app:app --host 0.0.0.0 --port 8000
