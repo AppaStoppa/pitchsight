@@ -129,7 +129,7 @@ The four library clips are already analysed, so you can open them with a small i
 
 ```bash
 git clone https://github.com/AppaStoppa/pitchsight.git && cd pitchsight
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scriptsctivate
+python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scriptsactivate
 pip install -r requirements-demo.txt
 python -m uvicorn app:app --port 8000
 # open http://localhost:8000/?game=volleyball-clip-1
