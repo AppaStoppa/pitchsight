@@ -79,7 +79,8 @@ Python, FastAPI, YOLOv8 (Ultralytics), ByteTrack, OpenCV, CLIP (Transformers), s
 
 ## Disclosure (made before Hacklanta)
 Nothing in this project existed before the event. Pretrained YOLOv8 weights, CLIP and open-source libraries are used as-is.
-Built with AI coding assistance (Claude).
+Built with AI coding assistance (Claude). The demo video is real output of the app (a recorded upload, the tracking overlays and
+result pages); its narration is a synthetic text-to-speech voice (Microsoft neural voice via the open-source edge-tts package).
 
 ## Judge instructions
 No credentials needed. Open the demo link and click any clip in the Game library, or upload a short clip of any of the
